@@ -91,7 +91,7 @@ class Download(Subcommand):
             "--ignore-patterns",
             type=str,
             required=False,
-            default="*.safetensors",
+            default="",
             help="If provided, files matching any of the patterns are not downloaded. Defaults to ignoring "
             "safetensors files to avoid downloading duplicate weights.",
         )
